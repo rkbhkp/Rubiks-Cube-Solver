@@ -1,0 +1,6 @@
+[<Color.BLUE: 4>, <Color.GREEN: 1>, <Color.GREEN: 1>, <Color.BLUE: 4>, <Color.GREEN: 1>, <Color.GREEN: 1>, <Color.BLUE: 4>, <Color.GREEN: 1>, <Color.GREEN: 1>]
+[<Color.ORANGE: 2>, <Color.ORANGE: 2>, <Color.ORANGE: 2>, <Color.ORANGE: 2>, <Color.ORANGE: 2>, <Color.ORANGE: 2>, <Color.ORANGE: 2>, <Color.ORANGE: 2>, <Color.ORANGE: 2>]
+[<Color.WHITE: 0>, <Color.WHITE: 0>, <Color.WHITE: 0>, <Color.YELLOW: 3>, <Color.YELLOW: 3>, <Color.YELLOW: 3>, <Color.YELLOW: 3>, <Color.YELLOW: 3>, <Color.YELLOW: 3>]
+[<Color.GREEN: 1>, <Color.GREEN: 1>, <Color.GREEN: 1>, <Color.BLUE: 4>, <Color.BLUE: 4>, <Color.BLUE: 4>, <Color.BLUE: 4>, <Color.BLUE: 4>, <Color.BLUE: 4>]
+[<Color.RED: 5>, <Color.RED: 5>, <Color.RED: 5>, <Color.RED: 5>, <Color.RED: 5>, <Color.RED: 5>, <Color.RED: 5>, <Color.RED: 5>, <Color.RED: 5>]
+[<Color.YELLOW: 3>, <Color.WHITE: 0>, <Color.WHITE: 0>, <Color.YELLOW: 3>, <Color.WHITE: 0>, <Color.WHITE: 0>, <Color.YELLOW: 3>, <Color.WHITE: 0>, <Color.WHITE: 0>]

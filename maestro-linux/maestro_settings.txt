@@ -1,0 +1,571 @@
+<!--Pololu Maestro servo controller settings file, http://www.pololu.com/catalog/product/1350-->
+<UscSettings version="1">
+  <NeverSuspend>false</NeverSuspend>
+  <SerialMode>USB_DUAL_PORT</SerialMode>
+  <FixedBaudRate>9600</FixedBaudRate>
+  <SerialTimeout>0</SerialTimeout>
+  <EnableCrc>false</EnableCrc>
+  <SerialDeviceNumber>12</SerialDeviceNumber>
+  <SerialMiniSscOffset>0</SerialMiniSscOffset>
+  <Channels MiniMaestroServoPeriod="80000" ServoMultiplier="1">
+    <!--Period = 20 ms-->
+    <!--Channel 0-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Goto" home="7917" speed="0" acceleration="50" neutral="6000" range="1905" />
+    <!--Channel 1-->
+    <Channel name="" mode="Servo" min="2432" max="9600" homemode="Goto" home="3460" speed="0" acceleration="110" neutral="6000" range="1905" />
+    <!--Channel 2-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Goto" home="7917" speed="0" acceleration="50" neutral="6000" range="1905" />
+    <!--Channel 3-->
+    <Channel name="" mode="Servo" min="2432" max="9600" homemode="Goto" home="2578" speed="0" acceleration="110" neutral="6000" range="1905" />
+    <!--Channel 4-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Goto" home="7917" speed="0" acceleration="50" neutral="6000" range="1905" />
+    <!--Channel 5-->
+    <Channel name="" mode="Servo" min="2432" max="9600" homemode="Goto" home="3460" speed="0" acceleration="110" neutral="6000" range="1905" />
+    <!--Channel 6-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Goto" home="7917" speed="0" acceleration="50" neutral="6000" range="1905" />
+    <!--Channel 7-->
+    <Channel name="" mode="Servo" min="2432" max="9600" homemode="Goto" home="3254" speed="0" acceleration="110" neutral="6000" range="1905" />
+    <!--Channel 8-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="50" neutral="6000" range="1905" />
+    <!--Channel 9-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 10-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 11-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+  </Channels>
+  <Sequences>
+    <Sequence name="D">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="500">4976 3460 4513 2578 4628 6080 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">4976 3460 4513 2578 8000 6080 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">4976 3460 4513 2578 8000 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="D2">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="750">4976 3460 4513 2578 4628 8718 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">4976 3460 4513 2578 8000 8718 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="750">4976 3460 4513 2578 8000 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="in_neutral">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="L">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="500">4976 3460 4513 2578 4628 3460 4281 5810 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">4976 3460 4513 2578 4628 3460 8000 5810 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">4976 3460 4513 2578 4628 3460 8000 3326 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3326 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="L2">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="750">4976 3460 4513 2578 4628 3460 4281 8454 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">4976 3460 4513 2578 4628 3460 8000 8454 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="750">4976 3460 4513 2578 4628 3460 8000 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="out_neutral">
+      <Frame name="Frame 0" duration="500">8000 3460 8000 2578 8000 3460 8000 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="R">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="500">4976 3460 4513 5300 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">4976 3460 8000 5300 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">4976 3460 8000 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="R2">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="750">4976 3460 4513 7749 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">4976 3460 8000 7749 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="750">4976 3460 8000 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="rotate_cube">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="500">8000 3460 8000 2578 4628 3460 8000 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">8000 3460 8000 2578 4628 6080 8000 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">4976 3460 4513 2578 4628 6080 4681 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 8000 6080 4681 3254 0 0 0 0</Frame>
+      <Frame name="Frame 5" duration="500">4976 3460 4513 2578 8000 3460 4681 3254 0 0 0 0</Frame>
+      <Frame name="Frame 6" duration="500">4976 3460 4513 2578 4628 3460 4681 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="Sequence 11">
+      <Frame name="Frame 0" duration="500">4810 3283 4182 2578 4447 3460 4348 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="Sequence 12">
+      <Frame name="Frame 2" duration="500">4810 3283 4182 2578 4447 3460 4348 3254 0 0 0 0</Frame>
+      <Frame name="Frame 0" duration="500">4810 3283 4182 2578 4447 3460 4348 5957 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">4810 3283 4182 2578 4447 3460 4348 8571 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="Sequence 13">
+      <Frame name="Frame 0" duration="500">4678 3283 4166 2608 4595 3518 3968 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="500">8000 3283 8000 2578 8000 3460 7917 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">7867 3283 7917 2578 7933 3460 7917 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">7785 3283 7917 2578 7917 3460 7917 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">6215 0 0 0 0 0 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 5" duration="500">4843 3283 4248 2578 4695 3548 4232 3254 0 0 0 0</Frame>
+      <Frame name="Frame 6" duration="500">0 0 3968 0 0 0 4397 0 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="Sequence 14">
+      <Frame name="Frame 0" duration="500">0 0 0 0 0 0 0 8542 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="500">0 8659 0 0 0 0 0 3225 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">0 0 0 7690 0 0 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">0 0 0 0 0 8718 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">0 0 0 0 0 6196 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 5" duration="500">0 0 0 0 0 3548 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 6" duration="500">0 0 0 5193 0 0 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 7" duration="500">0 0 0 2637 0 0 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 8" duration="500">0 0 0 7778 0 0 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 9" duration="500">0 0 0 2637 0 0 0 0 0 0 0 0</Frame>
+      <Frame name="Frame 10" duration="500">0 6016 0 0 0 0 0 0 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="U">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="500">4976 6200 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">8000 6200 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="500">8000 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+    <Sequence name="U2">
+      <Frame name="Frame 0" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 1" duration="750">4976 8748 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 2" duration="500">8000 8748 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 3" duration="750">8000 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+      <Frame name="Frame 4" duration="500">4976 3460 4513 2578 4628 3460 4281 3254 0 0 0 0</Frame>
+    </Sequence>
+  </Sequences>
+  <Script ScriptDone="false">out_neutral #quits if script is run
+
+### Sequence subroutines: ###
+# in_neutral
+sub in_neutral
+  left_0
+  down_0
+  top_0
+  right_0
+  200 delay
+
+  down_in
+  1000 delay
+
+  top_in
+  right_in
+  left_in
+  500 delay
+  turn_off
+  quit
+# out_neutral
+sub out_neutral
+  left_0
+  down_0
+  top_0
+  right_0
+  200 delay
+
+  top_out
+  left_out
+  right_out
+  down_out
+  500 delay
+
+  turn_off # turn off servos
+  quit
+# D
+sub D
+  in_helper
+  down_90
+  500 delay
+  down_out
+  500 delay
+  down_0
+  500 delay
+  down_in
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# Dp
+sub Dp
+  in_helper
+
+  down_out
+  500 delay
+  down_90
+  500 delay
+  down_in
+  500 delay
+  down_0
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# D2
+sub D2
+  in_helper
+  down_180
+  750 delay
+  down_out
+  500 delay
+  down_0
+  750 delay
+  down_in
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# L
+sub L
+  in_helper
+  left_90
+  500 delay
+  left_out
+  500 delay
+  left_0
+  500 delay
+  left_in
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# Lp
+sub Lp
+  in_helper
+
+  left_out
+  500 delay
+  left_90
+  500 delay
+  left_in
+  500 delay
+  left_0
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# L2
+sub L2
+  in_helper
+  left_180
+  750 delay
+  left_out
+  500 delay
+  left_0
+  750 delay
+  left_in
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# R
+sub R
+  in_helper
+  right_90
+  500 delay
+  right_out
+  500 delay
+  right_0
+  500 delay
+  right_in
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# Rp
+sub Rp
+  in_helper
+
+  right_out
+  500 delay
+  right_90
+  500 delay
+  right_in
+  500 delay
+  right_0
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# R2
+sub R2
+  in_helper
+  right_180
+  750 delay
+  right_out
+  500 delay
+  right_0
+  750 delay
+  right_in
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# U
+sub U
+  in_helper
+  top_90
+  500 delay
+  top_out
+  500 delay
+  top_0
+  500 delay
+  top_in
+  500 delay
+  turn_off #turn off servos
+  quit
+
+# Up
+sub Up
+  in_helper
+
+  top_out
+  500 delay
+  top_90
+  500 delay
+  top_in
+  500 delay
+  top_0
+  500 delay
+  turn_off #turn off servos
+  quit
+
+
+# U2
+sub U2
+  in_helper
+  top_180
+  750 delay
+  top_out
+  500 delay
+  top_0
+  750 delay
+  top_in
+  500 delay
+  turn_off #turn off servos
+  quit
+# rotate_cube
+sub rotate_cube
+  in_helper
+  down_out
+  500 delay
+
+  down_90
+  500 delay
+
+  down_in
+  500 delay
+
+  right_out
+  left_out
+  500 delay
+
+  down_0
+  top_90
+  600 delay
+  
+  down_in
+  250 delay 
+
+  right_in
+  left_in
+  500 delay
+
+  top_out
+  500 delay
+  top_0
+  500 delay
+  top_in
+  500 delay
+
+  turn_off #turn off servos
+  quit
+
+# rotate_cube_2
+sub rotate_cube_2
+  in_helper
+
+  left_out
+  500 delay
+  left_90
+  500 delay
+  left_in
+  500 delay
+
+  down_out
+  top_out
+  500 delay
+
+  left_0
+  right_90
+  1000 delay
+
+  top_in
+  down_in
+  500 delay
+
+  right_out
+  500 delay
+
+  right_0
+  500 delay
+
+  right_in
+  500 delay
+
+  turn_off
+  quit
+
+#clears the side of grabbers so pictures can be taken
+sub clear_side
+  in_helper
+  right_out
+  left_out
+  500 delay
+
+  right_90
+  left_90
+  500 delay
+
+  right_in
+  left_in  
+  500 delay
+
+  top_out
+  down_out
+  500 delay
+
+  turn_off
+  quit
+
+# undoes the above subroutine
+sub reset_side
+  down_in
+  top_in
+  750 delay
+  left_out
+  right_out
+  500 delay
+  left_0
+  right_0
+  500 delay
+  left_in
+  right_in
+  500 delay
+  turn_off
+  quit
+
+# HELPER FUNCTIONS
+## ARMS IN/OUT
+sub down_out
+  7919 4 servo
+  return
+
+sub top_out
+  7785 0 servo
+  return
+
+sub right_out
+  7917 2 servo
+  return
+
+sub left_out
+  7917 6 servo
+  return
+
+sub down_in
+  4695 4 servo
+  return
+
+sub top_in
+  4843 0 servo
+  return
+
+sub right_in
+  3968 2 servo
+  return
+
+sub left_in
+  4397 6 servo
+  return
+
+## GRABBER ROTATIONS
+sub top_0
+  3283 1 servo
+  return
+
+sub right_0
+  2578 3 servo
+  return
+
+sub left_0
+  3254 7 servo
+  return
+
+sub down_0
+  3548 5 servo
+  return
+
+sub top_90
+  6016 1 servo
+  return
+
+sub right_90
+  5193 3 servo
+  return
+
+sub left_90
+  5957 7 servo
+  return
+
+sub down_90
+  6196 5 servo
+  return
+
+sub top_180
+  8659 1 servo
+  return
+
+sub right_180
+  7778 3 servo
+  return
+
+sub left_180
+  8542 7 servo
+  return
+
+sub down_180
+  8718 5 servo
+  return
+
+## OTHER
+sub in_helper
+  top_in
+  top_0
+  right_in
+  right_0
+  down_in
+  down_0
+  left_in
+  left_0
+  return
+
+sub turn_off
+  0 11 servo
+  0 10 servo
+  0 9 servo
+  0 8 servo
+  0 5 servo
+  0 4 servo
+  0 7 servo
+  0 6 servo
+  0 3 servo
+  0 2 servo
+  0 1 servo
+  0 0 servo
+  return
+
+## end helper
+</Script>
+</UscSettings>
